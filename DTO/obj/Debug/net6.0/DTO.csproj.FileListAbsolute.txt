@@ -1,0 +1,15 @@
+D:\Git\ApiDockerkubernet\DTO\bin\Debug\net6.0\DTO.deps.json
+D:\Git\ApiDockerkubernet\DTO\bin\Debug\net6.0\DTO.dll
+D:\Git\ApiDockerkubernet\DTO\bin\Debug\net6.0\DTO.pdb
+D:\Git\ApiDockerkubernet\DTO\bin\Debug\net6.0\Dominio.dll
+D:\Git\ApiDockerkubernet\DTO\bin\Debug\net6.0\Dominio.pdb
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.csproj.CopyComplete
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.dll
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\refint\DTO.dll
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\DTO.pdb
+D:\Git\ApiDockerkubernet\DTO\obj\Debug\net6.0\ref\DTO.dll

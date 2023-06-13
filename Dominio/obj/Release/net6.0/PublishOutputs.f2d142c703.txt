@@ -1,0 +1,3 @@
+D:\Git\ApiDockerkubernet\publish\Dominio.dll
+D:\Git\ApiDockerkubernet\publish\Dominio.deps.json
+D:\Git\ApiDockerkubernet\publish\Dominio.pdb

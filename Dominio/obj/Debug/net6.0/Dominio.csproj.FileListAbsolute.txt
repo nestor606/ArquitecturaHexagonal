@@ -1,0 +1,12 @@
+D:\Git\ApiDockerkubernet\Dominio\bin\Debug\net6.0\Dominio.deps.json
+D:\Git\ApiDockerkubernet\Dominio\bin\Debug\net6.0\Dominio.dll
+D:\Git\ApiDockerkubernet\Dominio\bin\Debug\net6.0\Dominio.pdb
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.dll
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\Dominio.pdb
+D:\Git\ApiDockerkubernet\Dominio\obj\Debug\net6.0\ref\Dominio.dll

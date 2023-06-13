@@ -1,0 +1,15 @@
+D:\Git\ApiDockerkubernet\Aplicacion\bin\Release\net6.0\Aplicacion.deps.json
+D:\Git\ApiDockerkubernet\Aplicacion\bin\Release\net6.0\Aplicacion.dll
+D:\Git\ApiDockerkubernet\Aplicacion\bin\Release\net6.0\Aplicacion.pdb
+D:\Git\ApiDockerkubernet\Aplicacion\bin\Release\net6.0\Dominio.dll
+D:\Git\ApiDockerkubernet\Aplicacion\bin\Release\net6.0\Dominio.pdb
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.csproj.AssemblyReference.cache
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.AssemblyInfoInputs.cache
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.AssemblyInfo.cs
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.csproj.CoreCompileInputs.cache
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.csproj.CopyComplete
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.dll
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\refint\Aplicacion.dll
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\Aplicacion.pdb
+D:\Git\ApiDockerkubernet\Aplicacion\obj\Release\net6.0\ref\Aplicacion.dll
