@@ -7,6 +7,8 @@ using Dominio.Interfaces.Repositorio;
 using System.Threading.Tasks;
 using Dominio.Modelo;
 using Xunit;
+using NUnit.Framework;
+using System.Globalization;
 
 namespace DomaintestUnit
 {
@@ -37,8 +39,8 @@ namespace DomaintestUnit
     public class ProductoTest {
 
         [Fact]
-        public void Producto_Properties_InitializedCorrectly() { 
-            
+        public void Producto_Properties_InitializedCorrectly() {
+
             //Arranque
             int ProductId = 1;
             string Articulo = "Arroz Blanquita la suprema";
@@ -103,9 +105,167 @@ namespace DomaintestUnit
             string descripcion = "Bulto de Arroz La Suprema";
             int proveedorid = 1;
             int cantidad = 1;
+            string estado = "Pendiente";
+            DateTime FechaPedido = DateTime.Now;
 
-            String estado = "Pendiente";
-            
+            //Act
+            ClsPedidoDom pedido = new ClsPedidoDom
+            {
+
+                PedidoID = pedidoid,
+                Descripcion = descripcion,
+                Estado = estado,
+                FechPedido = FechaPedido,
+                ProveedorID = proveedorid,
+                NumTotal = cantidad
+            };
+
+            //Assert
+            Assert.Equals(pedidoid, pedido.PedidoID);
+            Assert.Equals(descripcion, pedido.Descripcion);
+            Assert.Equals(estado, pedido.Estado);
+            Assert.Equals(FechaPedido, pedido.FechPedido);
+            Assert.Equals(proveedorid, pedido.ProveedorID);
+            Assert.Equals(cantidad, pedido.NumTotal);
+
+        }
+        public class ProveedorTest {
+
+            [Fact]
+            public void Proveedor_Properties_InitializedCorrectl() {
+
+
+                //Arranque
+                int proveedorId = 1;
+                string NombProveedor = "SurtiTienda";
+                string Nit = "9082345066";
+                string Telefono = "313457389";
+                string Direccion = "call 60 #97bi-70";
+
+                //Act
+                ClsProveedorDom proveedores = new ClsProveedorDom
+                {
+
+                    ProveedorID = proveedorId,
+                    RazonSocial = NombProveedor,
+                    Nit = Nit,
+                    DireccionProveedor = Direccion,
+                    TelefonoProveedor = Telefono
+
+
+                };
+
+                //Assert
+                Assert.Equals(proveedorId, proveedores.ProveedorID);
+                Assert.Equals(NombProveedor, proveedores.RazonSocial);
+                Assert.Equals(Nit, proveedores.Nit);
+                Assert.Equals(Telefono, proveedores.TelefonoProveedor);
+                Assert.Equals(Direccion, proveedores.DireccionProveedor);
+
+            }
+
+        }
+
+    }
+    public class PedidoDetll {
+
+        [Fact]
+        public void Pedidodll_Properties_InitializedCorrectl() {
+
+            //Arranque
+            int DtllPedidoId = 1;
+            int PedidoId = 1;
+            int ProductoId = 1;
+            int Numtotal = 2;
+            double Valor = 34000;
+
+            //Act 
+
+            ClsPedidoDetallDom Detalle = new ClsPedidoDetallDom
+            {
+
+
+                DetallPedidoID = DtllPedidoId,
+                Cantidad = Numtotal,
+                PedidoID = PedidoId,
+                Precio = Valor,
+                ProductoID = ProductoId
+            };
+
+            //Assert
+            Assert.Equals(DtllPedidoId, Detalle.DetallPedidoID);
+            Assert.Equals(Numtotal, Detalle.Cantidad);
+            Assert.Equals(PedidoId, Detalle.PedidoID);
+            Assert.Equals(Valor, Detalle.Precio);
+            Assert.Equals(ProductoId, Detalle.ProductoID);
+        }
+
+    }
+    public class ventaTest {
+
+        [Fact]
+        public void Venta_Properties_InitializedCorrectl() {
+
+
+            //Arranque
+            int VentaId = 1;
+            string Articulo = "Libra de arroz";
+            DateTime fecha = DateTime.Now;
+            double Cantidad = 1;
+            string estado = "Compra";
+
+            //Act
+            ClsVentaDom venta = new ClsVentaDom
+            {
+
+                VentaID = VentaId,
+                Descripcion = Articulo,
+                Estado = estado,
+                NumTotal = Cantidad,
+                FechaVenta = fecha
+            };
+
+            //Assert
+            Assert.Equals(VentaId, venta.VentaID);
+            Assert.Equals(Articulo, venta.Descripcion);
+            Assert.Equals(estado, venta.Estado);
+            Assert.Equals(Cantidad, venta.NumTotal);
+            Assert.Equals(fecha, venta.FechaVenta);
+
+        }
+    }
+    public class VentaDtllTest {
+
+        [Fact]
+        public void VentaDtll_Properties_InitializedCorrectl() {
+
+
+            //Arranque
+            int ventadtllid = 1;
+            int ventaid = 1;
+            int producto = 1;
+            double cantidad = 2;
+            double valor = 23000;
+
+
+            //Act 
+            ClsVentaDetallDom detall = new ClsVentaDetallDom
+            {
+
+                VentaDetallID = ventadtllid,
+                Cantidad = cantidad,
+                ProductoID = producto,
+                Precio = valor,
+                VentaID = ventaid
+
+            };
+
+            //Assert
+            Assert.Equals(ventadtllid, detall.VentaDetallID);
+            Assert.Equals(cantidad,detall.Cantidad);
+            Assert.Equals(producto,detall.ProductoID);
+            Assert.Equals(valor,detall.Precio);
+            Assert.Equals(ventaid,detall.VentaID);
         }
     }
 }
