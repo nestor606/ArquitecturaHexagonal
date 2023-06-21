@@ -12,6 +12,6 @@ WORKDIR /app
 COPY --from=build /app .
 
 EXPOSE 5268
-EXPOSE 7040
+
 
 ENTRYPOINT ["dotnet","Api.dll"]

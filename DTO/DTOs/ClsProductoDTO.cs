@@ -10,8 +10,7 @@ namespace DTO.DTOs
     {
         public int ProductoID { get; set; }
         public int CategoriaID { get; set; }
-        public double Cantidad { get; set; }
         public string? Descripcion { get; set; }
-        public double Precio { get; set; }
+        public int Precio { get; set; }
     }
 }

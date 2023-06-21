@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57cfa684_002De5f4_002D4a96_002D96dd_002Ded60a1263a0d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Pedidodll_Properties_InitializedCorrectl" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::7DEBC442-32DC-4AEF-83A2-3720FDB16CF1::net6.0::Dominiotest.EmpleadoTest.Empleado_Properties_InitializedCorrectly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::7DEBC442-32DC-4AEF-83A2-3720FDB16CF1::net6.0::Dominiotest.CateogoriaTest.Categoria_Properties_InitializedCorrectly&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::7DEBC442-32DC-4AEF-83A2-3720FDB16CF1::net6.0::Dominiotest.ProductoTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::7DEBC442-32DC-4AEF-83A2-3720FDB16CF1::net6.0::Dominiotest.CateogoriaTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f8b17276_002D4da1_002D4493_002Da6ff_002D2fcf92fdb6ba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

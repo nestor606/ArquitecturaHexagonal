@@ -11,7 +11,7 @@ namespace Datos.Entidad
         public int ProductoID { get; set; }
         public int CategoriaID { get; set; }
         public string? Descripcion { get; set; }
-        public double Precio { get; set; }
+        public int Precio { get; set; }
 
         public virtual Categoria Categorias { get; set; }
     }

@@ -12,9 +12,9 @@ namespace Dominio.Modelo
 
         public string? Descripcion { get; set; }
 
-        public DateTime FechaVenta { get; set; }
+        public string? FechaVenta { get; set; }
 
-        public double NumTotal { get; set; }
+        public int NumTotal { get; set; }
 
         public string? Estado { get; set; }
     }

@@ -11,6 +11,6 @@ namespace Dominio.Modelo
         public int ProductoID { get; set; }
         public int CateogriaID { get; set; }
         public string? Descripcion { get; set; }
-        public double Precio { get; set; }
+        public int Precio { get; set; }
     }
 }

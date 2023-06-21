@@ -12,7 +12,7 @@ namespace Dominio.Modelo
         public int PedidoID { get; set; }
         public int ProductoID { get; set; }
         public int Cantidad { get; set; }
-        public double Precio { get; set; }
+        public int Precio { get; set; }
 
     }
 }

@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Keycloak.AuthServices.Authentication" Version="1.5.2" />
+    <PackageReference Include="Keycloak.AuthServices.Authorization" Version="1.5.2" />
+    <PackageReference Include="Keycloak.AuthServices.Sdk" Version="1.5.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
